@@ -3,57 +3,77 @@
     "env_key": "OPENAI_API_KEY",
     "url": "https://platform.openai.com/api-keys",
     "models": {
-      "gpt-5 (最新)": "gpt-5",
-      "gpt-5-mini (便宜)": "gpt-5-mini",
+      "gpt-5.5 (最新旗舰)": "gpt-5.5",
+      "gpt-5.4": "gpt-5.4",
+      "gpt-5.4-mini (便宜)": "gpt-5.4-mini",
+      "gpt-5": "gpt-5",
+      "gpt-5-mini": "gpt-5-mini",
       "gpt-4.1": "gpt-4.1",
       "gpt-4.1-mini": "gpt-4.1-mini",
-      "gpt-4.1-nano": "gpt-4.1-nano",
-      "gpt-4o": "gpt-4o",
-      "gpt-4o-mini": "gpt-4o-mini",
+      "gpt-4.1-nano (最便宜)": "gpt-4.1-nano",
       "o3": "o3",
       "o4-mini": "o4-mini"
     },
-    "access_types": ["API Key 直连", "ChatGPT Plus 订阅", "ChatGPT Pro 订阅"]
+    "access_types": [
+      "API Key 直连",
+      "ChatGPT Plus 订阅",
+      "ChatGPT Pro 订阅"
+    ]
   },
   "Anthropic Claude": {
     "env_key": "ANTHROPIC_API_KEY",
     "url": "https://console.anthropic.com/",
     "models": {
-      "claude-sonnet-5 (最新)": "claude-sonnet-5",
-      "claude-opus-4": "claude-opus-4",
-      "claude-sonnet-4": "claude-sonnet-4",
-      "claude-haiku-3.5 (便宜)": "claude-haiku-3.5"
+      "claude-opus-4-7 (最新旗舰)": "claude-opus-4-7",
+      "claude-sonnet-4-6 (推荐)": "claude-sonnet-4-6",
+      "claude-haiku-4-5 (便宜/快速)": "claude-haiku-4-5",
+      "claude-opus-4-6": "claude-opus-4-6",
+      "claude-sonnet-4-5": "claude-sonnet-4-5"
     },
-    "access_types": ["API Key 直连", "Claude Pro 订阅"]
+    "access_types": [
+      "API Key 直连",
+      "Claude Pro 订阅"
+    ]
   },
   "Google Gemini": {
     "env_key": "GEMINI_API_KEY",
     "url": "https://aistudio.google.com/",
     "models": {
-      "gemini-2.5-pro": "gemini-2.5-pro",
-      "gemini-2.5-flash (便宜)": "gemini-2.5-flash"
+      "gemini-2.5-pro (最新)": "gemini-2.5-pro",
+      "gemini-2.5-flash (推荐)": "gemini-2.5-flash",
+      "gemini-2.5-flash-lite (最便宜)": "gemini-2.5-flash-lite"
     },
-    "access_types": ["API Key 直连", "Google AI 免费额度"]
+    "access_types": [
+      "API Key 直连",
+      "Google AI 免费额度"
+    ]
   },
   "DeepSeek": {
     "env_key": "DEEPSEEK_API_KEY",
     "url": "https://platform.deepseek.com/",
     "models": {
-      "deepseek-chat (V3/最新)": "deepseek-chat",
-      "deepseek-chat-flash (便宜)": "deepseek-chat",
-      "deepseek-reasoner (R1)": "deepseek-reasoner"
+      "deepseek-v4-pro (最新/旗舰)": "deepseek-v4-pro",
+      "deepseek-v4-flash (便宜/推荐)": "deepseek-v4-flash",
+      "deepseek-chat (旧称/兼容)": "deepseek-chat",
+      "deepseek-reasoner (旧称/兼容)": "deepseek-reasoner"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ],
+    "note": "2026.4.24 发布 V4！旧版 deepseek-chat/reasoner 将于 2026.7.24 停用"
   },
   "智谱 GLM": {
     "env_key": "ZHIPUAI_API_KEY",
     "url": "https://open.bigmodel.cn/",
     "models": {
-      "glm-5 (最新)": "glm-5",
-      "glm-5-pro": "glm-5-pro",
-      "glm-5-flash (便宜)": "glm-5-flash"
+      "glm-5.1 (最新)": "glm-5.1",
+      "glm-5": "glm-5",
+      "glm-5-flash (便宜)": "glm-5-flash",
+      "glm-4-plus": "glm-4-plus"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   },
   "月之暗面 Kimi": {
     "env_key": "MOONSHOT_API_KEY",
@@ -62,7 +82,9 @@
       "kimi-k2.6 (最新)": "kimi-k2.6",
       "kimi-k2.5-turbo": "kimi-k2.5-turbo"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   },
   "阿里百炼 通义千问": {
     "env_key": "DASHSCOPE_API_KEY",
@@ -72,7 +94,9 @@
       "qwen-plus": "qwen-plus",
       "qwen-turbo (便宜)": "qwen-turbo"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   },
   "火山引擎 豆包": {
     "env_key": "VOLCANO_API_KEY",
@@ -82,7 +106,9 @@
       "doubao-pro-32k": "doubao-pro-32k",
       "doubao-lite (便宜)": "doubao-lite"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   },
   "百度千帆": {
     "env_key": "QIANFAN_API_KEY",
@@ -92,7 +118,9 @@
       "ernie-3.5": "ernie-3.5",
       "ernie-speed (便宜)": "ernie-speed"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   },
   "腾讯混元": {
     "env_key": "HUNYUAN_API_KEY",
@@ -102,6 +130,8 @@
       "hunyuan-pro": "hunyuan-pro",
       "hunyuan-lite (便宜)": "hunyuan-lite"
     },
-    "access_types": ["API Key 直连"]
+    "access_types": [
+      "API Key 直连"
+    ]
   }
 }
