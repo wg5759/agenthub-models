@@ -133,5 +133,16 @@
     "access_types": [
       "API Key 直连"
     ]
+  },
+  "MiniMax": {
+    "env_key": "MINIMAX_API_KEY",
+    "url": "https://platform.minimaxi.com/",
+    "models": {
+      "minimax-m2.5 (最新)": "minimax-m2.5",
+      "minimax-t2.5 (便宜)": "minimax-t2.5"
+    },
+    "access_types": [
+      "API Key 直连"
+    ]
   }
 }
